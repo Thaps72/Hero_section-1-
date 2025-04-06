@@ -1,0 +1,83 @@
+/*--body reset--*/
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Bodoni Moda SC", serif;
+  box-sizing: border-box;
+}
+
+/*--hero-image--*/
+.hero_container{
+  background-image: url(./Image/002.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/*--logo--*/
+.logo{
+  width: 90px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/*--CTA_1--*/
+.cta-button_1{
+  padding: 8px 12px;
+  background-color: transparent;
+  border: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  float: right;
+  margin-top: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+
+/*--CTA_1--*/
+.hero-text{
+  position: absolute;
+  color:#000;
+  top: 20%;
+  padding:10px 20px; 
+}
+
+
+h1{
+  font-size: 65px;
+  margin: 10px;
+}
+/*--CTA_2--*/
+.cta-button_2{
+  padding: 8px 12px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cta-button_2:hover {
+  background-color: #0056b3;
+}
+
+
+/*--media-cellphone--*/
+@media (min-width: 375px){
+  .logo{
+    width: 60px;
+  }
+  .cta-button_1{
+    margin-right: 10px;
+  }
+}
